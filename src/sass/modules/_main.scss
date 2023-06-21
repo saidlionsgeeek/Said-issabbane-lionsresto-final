@@ -115,12 +115,12 @@
     background-color: rgb(255, 255, 255);
     animation: play-button 3s infinite;
     border-radius:50%;
-    width: 69px;
-    height: 63px;
+    width: 59px;
+    height: 53px;
 }
 .fa-circle-play{
     color: #c81211; 
-    font-size:70px ; 
+    font-size:60px ; 
     margin-left: -13px;
      margin-top: -10px;
 }
@@ -129,10 +129,10 @@
         box-shadow: 0 0 0 0 rgba(200, 18, 17,0.7);
     }
     40%{
-        box-shadow: 0 0 0 50px rgba(200, 18, 17,0.7);
+        box-shadow: 0 0 0 40px rgba(200, 18, 17,0.7);
     }
     80%{
-        box-shadow: 0 0 0 50px rgba(200, 18, 17,0.7);
+        box-shadow: 0 0 0 40px rgba(200, 18, 17,0.7);
     }
     100%{
         box-shadow: 0 0 0 0 rgba(200, 18, 17,0.7);
@@ -221,4 +221,31 @@
             box-shadow: 0 0 0 0 rgba(200, 18, 17,0.7);
         }
     }
+}
+// SECTION 3
+.fa-clipboard-list{
+    background-color: rgba(255, 231, 231);
+    width: 50px;
+    height: 50px;
+    color: #c81211;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+.card-big{
+    width: 40rem;
+    height: 26rem;
+    margin-top: 70px;
+    margin-left: 60px;
+}
+.card-small{
+    width: 27rem;
+    height: 22rem;
+    margin-top: 100px;
+    margin-left: 60px;
+    transition: 0.6s;
+}
+.card-small:hover{
+    scale: (1.2);
 }

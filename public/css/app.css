@@ -13436,5 +13436,24 @@ textarea.form-control-lg {
     width: 200px;
   }
 }
+.section2-title {
+  font-family: "amatic-regular";
+  font-size: 50px;
+}
+.section2-title span {
+  color: rgb(193, 55, 80);
+}
+
+.telephone {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin-top: -150px;
+  width: 480px;
+  margin-left: 50px;
+}
+
+.section2-div {
+  width: 500px;
+}
 
 /*# sourceMappingURL=app.css.map */

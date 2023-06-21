@@ -13478,6 +13478,13 @@ textarea.form-control-lg {
   height: 63px;
 }
 
+.fa-circle-play {
+  color: #c81211;
+  font-size: 70px;
+  margin-left: -13px;
+  margin-top: -10px;
+}
+
 @keyframes play-button {
   0% {
     box-shadow: 0 0 0 0 rgba(200, 18, 17, 0.7);
@@ -13528,7 +13535,6 @@ textarea.form-control-lg {
 }
 @media (min-width: 375px) and (max-width: 426px) {
   .telephone {
-    position: absolute;
     background-color: rgb(255, 255, 255);
     margin-top: -150px;
     width: 280px;
@@ -13548,6 +13554,32 @@ textarea.form-control-lg {
   }
   .section2-div {
     width: 400px;
+  }
+  .play-button {
+    margin-top: -320px;
+    margin-left: 190px;
+    background-color: rgb(255, 255, 255);
+    animation: play-button 3s infinite;
+    border-radius: 50%;
+    width: 39px;
+    height: 33px;
+  }
+  .play-button i {
+    font-size: 40px;
+  }
+  @keyframes play-button {
+    0% {
+      box-shadow: 0 0 0 0 rgba(200, 18, 17, 0.7);
+    }
+    40% {
+      box-shadow: 0 0 0 30px rgba(200, 18, 17, 0.7);
+    }
+    80% {
+      box-shadow: 0 0 0 30px rgba(200, 18, 17, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 0 0 rgba(200, 18, 17, 0.7);
+    }
   }
 }
 

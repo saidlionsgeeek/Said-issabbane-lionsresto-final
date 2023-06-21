@@ -7,13 +7,76 @@
     width: 80%;
 }
 .section1-div{
-    width:50rem;
+    width:45rem;
+}
+.section1-image{
+    width: 450px;
+}
+.btn-size{
+    width: 200px;
 }
 
 @media (min-width:375px) and (max-width:426px){
 
     .section1-div{
-        width:19rem;
+        width: 15rem;
         margin-left: 45px;
+        margin-top: -20px;
+    }
+    .section1-image{
+        width: 400px;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+    .section1-title{
+        font-family: amatic-bold;
+        width: 280px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .section1-para{
+        margin-left: -42px;
+        width: 380px;
+        text-align: center;
+    }
+    .divsection1-button{
+        width: 340px;
+        margin-bottom: 50px;
+        .btn-size{
+            width: 150px;
+        }
+    }
+}
+@media (min-width:768px) and (max-width:980px){
+
+    .section1-div{
+        width: 15rem;
+        margin-left: 45px;
+        margin-top: -20px;
+    }
+    .section1-image{
+        width: 650px;
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    .section1-title{
+        font-family: amatic-bold;
+        width: 280px;
+        font-size: 50px;
+        text-align: center;
+        margin-left:180px;
+    }
+    .section1-para{
+        margin-left: -42px;
+        width: 700px;
+        text-align: center;
+    }
+    .divsection1-button{
+        width: 450px;
+        margin-bottom: 50px;
+        .btn-size{
+            width: 200px;
+        }
+        margin-left: 150px;
     }
 }

@@ -1,0 +1,19 @@
+.section1-title{
+    font-family: amatic-bold;
+    width: 350px;
+    font-size: 50px;
+}
+.section1-para{
+    width: 80%;
+}
+.section1-div{
+    width:50rem;
+}
+
+@media (min-width:375px) and (max-width:426px){
+
+    .section1-div{
+        width:19rem;
+        margin-left: 45px;
+    }
+}

@@ -12,8 +12,24 @@ $custom-spacers : (
     5 : $spacer*5 ,
     6 : $spacer*6 ,
     7 : $spacer*7 ,
-    8 : $spacer*20 ,
+    8 : $spacer*10 ,
 );
 
 //& Fusionner et écrire nos valeurs d'espacement :
 $spacers : map-merge($spacers , $custom-spacers );
+
+
+//* Mes variables couleurs :
+$bage : rgb(238, 238, 238);
+$gray : rgb(163, 155, 154);
+$orange : #db850d;
+
+//* Notre customisations des couleurs :
+$custom-colors : (
+    "bage" : $bage ,
+    "tcolor" : $gray ,
+    "ikram" : $orange ,
+);
+
+//* Fusionner les informations avec celles de bootstrap :
+$theme-colors : map-merge($theme-colors , $custom-colors);

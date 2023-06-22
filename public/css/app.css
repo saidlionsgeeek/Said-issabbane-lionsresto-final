@@ -14100,7 +14100,7 @@ textarea.form-control-lg {
 }
 
 .card-small:hover {
-  scale: 1.2;
+  scale: 1.15;
 }
 
 .button-card {
@@ -14174,6 +14174,57 @@ textarea.form-control-lg {
     width: 150px;
     margin-left: 50%;
     transform: translate(-50%);
+  }
+}
+.image-section4 {
+  background-image: url(../images/stats-bg.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  background-blend-mode: darken;
+  background-color: rgba(0, 0, 0, 0.34);
+}
+
+.para-section4 {
+  font-size: 60px;
+  margin-bottom: -10px;
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+  .image-section4 {
+    background-image: url(../images/stats-bg.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.34);
+  }
+  .para-section4 {
+    font-size: 60px;
+    margin-bottom: -10px;
+  }
+}
+@media (min-width: 375px) and (max-width: 426px) {
+  .image-section4 {
+    background-image: url(../images/stats-bg.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.34);
+  }
+  .para-section4 {
+    font-size: 60px;
+    margin-bottom: -10px;
   }
 }
 

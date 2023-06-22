@@ -14356,4 +14356,83 @@ textarea.form-control-lg {
   background-color: rgb(207, 18, 18);
 }
 
+.chef {
+  width: 400px;
+  border-radius: 10px;
+  background-color: white;
+  transition: 0.6s;
+  position: relative;
+}
+.chef img {
+  border-radius: 10px 10px 0px 0px;
+  width: 400px;
+  height: 350px;
+}
+.chef p {
+  margin-top: -10px;
+}
+
+.section7-title {
+  font-size: 70px;
+  font-family: amatic-bold;
+}
+
+.chef:hover {
+  scale: 1.1;
+}
+
+.chef:hover .social-media-chefs {
+  right: 5%;
+  opacity: 1;
+}
+
+.social-media-chefs {
+  width: 30px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 5px;
+  position: absolute;
+  top: 2%;
+  opacity: 0;
+  right: 0;
+  transition: 1s;
+}
+.social-media-chefs i {
+  padding-block: 5px;
+}
+
+@media (min-width: 767px) and (max-width: 1023px) {
+  .chef {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .chef img {
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: auto;
+  }
+  .section7-title {
+    font-size: 70px;
+    font-family: amatic-bold;
+  }
+}
+@media (min-width: 375px) and (max-width: 427px) {
+  .chef {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+  }
+  .chef img {
+    border-radius: 10px 10px 0px 0px;
+    width: 300px;
+    height: auto;
+  }
+  .section7-title {
+    font-size: 70px;
+    font-family: amatic-bold;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

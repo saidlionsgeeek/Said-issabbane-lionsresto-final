@@ -485,19 +485,79 @@
     
 }
 .carousels-div-mother{
-    gap:2px
+    gap: 2px;
 }
 .dote{
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
     background-color: $gray;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 40px;
     border-radius: 50%;
 }
 .dote.active,
 .dote:hover{
     background-color: $red;
+}
+@media (min-width:767px) and (max-width:1023px){
+    .carousels-div-mother{
+        gap: 2px;
+        height: 650px;
+    }
+    .image-carousels1{
+        background-image: url(../images/events-1.jpg);
+        width: 768px;
+        height: 650px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.455);
+        background-blend-mode: darken;
+    }
+    .image-carousels2{
+        background-image: url(../images/events-2.jpg);
+        width: 768px;
+        height: 650px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.452);
+        background-blend-mode: darken;
+    }
+    .image-carousels3{
+        background-image: url(../images/events-3.jpg);
+        width: 768px;
+        height: 650px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.451);
+        background-blend-mode: darken;
+    }
+}
+@media (min-width:375px) and (max-width:427px){
+    .carousels-div-mother{
+        gap: 2px;
+        height: 500px;
+    }
+    .image-carousels1{
+        background-image: url(../images/events-1.jpg);
+        width: 420px;
+        height: 500px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.455);
+        background-blend-mode: darken;
+    }
+    .image-carousels2{
+        background-image: url(../images/events-2.jpg);
+        width: 420px;
+        height: 500px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.452);
+        background-blend-mode: darken;
+    }
+    .image-carousels3{
+        background-image: url(../images/events-3.jpg);
+        width: 420px;
+        height: 500px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.451);
+        background-blend-mode: darken;
+    }
 }
 // section7 chefs
 .chef{

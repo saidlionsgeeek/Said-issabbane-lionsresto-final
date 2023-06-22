@@ -56,4 +56,33 @@ for (let i = 0; i < li_section5.length; i++) {
         }
     })
 }
+//!!carousels
+
+let carousel = document.querySelector(".carousels-div-mother");
+console.log(carousel);
+let dote = document.querySelectorAll(".dote")
+for (let i = 0; i < dote.length; i++) {
+    let element = dote[i];
+    element.addEventListener("click",(event)=>{
+        for (let i = 0; i < dote.length; i++) {
+            let element = dote[i];
+            element.classList.remove("active")
+        }
+        event.target.classList.add("active")
+    })
+    
+}
+
+const carouselMove =()=>{
+    carousel.appendChild(carousel.firstElementChild);
+}
+const carouselMovePrevious =()=>{
+    carousel.insertBefore(carousel.lastElementChild, carousel.firstElementChild);
+}
+
+
+const previous =()=>{
+    carousel.insertBefore(carousel.firstElementChild, carousel.lastElementChild.nextElementSibling)
+}
+
 

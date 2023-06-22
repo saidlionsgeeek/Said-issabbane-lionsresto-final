@@ -14227,5 +14227,34 @@ textarea.form-control-lg {
     margin-bottom: -10px;
   }
 }
+.section5-title {
+  font-family: "amatic-bold";
+  font-size: 50px;
+}
+
+.li-section5 {
+  border-bottom: 3px solid rgb(163, 155, 154);
+  height: 37px;
+  width: auto;
+  transition: 0.6s;
+}
+
+.li-section5:hover {
+  border-bottom: 3px solid rgb(238, 238, 238);
+}
+
+.li-section5.ac,
+.li-section5:hover {
+  color: rgb(207, 18, 18);
+  border-bottom: 3px solid rgb(207, 18, 18);
+}
+
+.img-tabs {
+  width: 250px;
+}
+
+.div-mother p {
+  margin-top: -20px;
+}
 
 /*# sourceMappingURL=app.css.map */

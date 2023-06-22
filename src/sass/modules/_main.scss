@@ -80,7 +80,7 @@
         margin-left: 150px;
     }
 }
-// section2
+//! section2
 
 .section2-title{
     font-family: "amatic-regular";
@@ -222,7 +222,7 @@
         }
     }
 }
-// SECTION 3
+//! SECTION 3
 .clipboard{
     background-color: rgba(255, 231, 231);
     width: 50px;
@@ -321,7 +321,7 @@
     transform: translate(-50%);
 }
 }
-// section4
+//! section4
 .image-section4{
     background-image: url(../images/stats-bg.jpg);
     height: 400px;
@@ -369,5 +369,34 @@
     .para-section4{
         font-size: 60px;
         margin-bottom: -10px;
+    }
+}
+//! section5
+.section5-title{
+    font-family: "amatic-bold";
+    font-size: 50px;
+}
+.li-section5{
+    border-bottom: 3px solid $gray;
+    height: 37px;
+    width: auto;
+    transition: 0.6s;
+}
+.li-section5:hover{
+    border-bottom:3px solid $bage;
+}
+.li-section5.ac,
+.li-section5:hover{
+    color: $red;
+    border-bottom:3px solid $red;
+}
+
+
+.img-tabs{
+    width: 250px;
+}
+.div-mother{
+    p{
+        margin-top: -20px;
     }
 }

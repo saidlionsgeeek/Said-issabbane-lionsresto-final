@@ -52,7 +52,21 @@ for (let index = 0; index < btn_open_modal.length; index++) {
     }
 }
 
+// border hover
+let navUl = document.querySelectorAll(".nav-item");
+console.log(navUl);
 
+for (let i = 0; i < navUl.length; i++) {
+    let element = navUl[i];
+    element.addEventListener("click",(e)=>{
+            for (let i = 0; i < navUl.length; i++) {
+                let euu = navUl[i];
+                euu.classList.remove("cc")
+            }
+e.target.classList.add("cc")
+    })
+   
+}
 // section 5 tabs
 
 let li_section5 = document.querySelectorAll(".li-section5");

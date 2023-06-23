@@ -14,7 +14,28 @@
             <div class="container-fluid ">
                 <a class="navbar-brand fs-2 fw-bold  ms-2 ms-md-5 ms-lg-5 logo" href="#">LionsResto<span
                         class="text-danger">.</span></a>
-                <button class="btn btn-danger rounded-pill said">connexion</button>
+                <div class="">
+                    <button class="btn btn-danger rounded-pill said btn-open-modal" id="conexion">connexion</button>
+                    <div class="div-modal modal modal-no-show div-image" id="conexion">
+                        <button class="btn-close-modal x-close-modal btn" id="conexion">X</button>
+                        <div class="content-modal d-flex flex-column justify-content-center  mt-5 w-100 ms-2">
+                            <form class="mb-1 ms-1" action="">
+                                <label for="">eamil:</label>
+                                <input class="ms-1 border-1" type="email" placeholder="Your Email">
+                            </form>
+                            <form action="" >
+                                <label for="">password:</label>
+                                <input class="border-1" type="password" placeholder="Your Password">
+                            </form>
+                        </div>
+                        <div class="d-flex justify-content-center gap-3 mt-2">
+                        <button class="btn-close-modal btn btn-danger" id="conexion">Log in</button>
+                        <button class="btn-close-modal btn btn-danger" id="conexion">Sign up</button>
+                    </div>
+                    </div>
+                </div>
+                <button class="said-darck btn"> <i class="fa-solid fa-circle-half-stroke"
+                        style="color: #000000;"></i></button>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -626,7 +647,8 @@
         <!-- section 11 -->
         <section class="bg-darkblue mt-5 ">
             <div class=" d-lg-flex d-block pt-3  container pb-3">
-                <div class="text-light d-lg-flex d-md-flex w-100 justify-content-md-around pb-md-3 justify-content-lg-around">
+                <div
+                    class="text-light d-lg-flex d-md-flex w-100 justify-content-md-around pb-md-3 justify-content-lg-around">
                     <div class="ms-1 pb-2 pb-md-0 pb-lg-0 pb-xl-0">
                         <i class="fa-solid fa-location-dot fs-4 fw-bold "></i><span
                             class="ms-1 fs-4 fw-bold">Address</span><br>
@@ -658,7 +680,8 @@
                 </div>
             </div>
             <div class="border-section11 p-1">
-                <p class="text-tcolor text-center">Copyright <span class="fw-bold">LIONSRESTO.</span> All Rights Reserved</p>
+                <p class="text-tcolor text-center">Copyright <span class="fw-bold">LIONSRESTO.</span> All Rights
+                    Reserved</p>
             </div>
         </section>
     </main>

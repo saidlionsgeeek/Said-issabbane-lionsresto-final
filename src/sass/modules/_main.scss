@@ -926,21 +926,36 @@
     background-color: rgba(0, 0, 0, 0.86);
     border-radius: 0px;
 }
-iframe{
+.iframea{
     width:1000px ;
     height: 506px;
 }
 @media (min-width:375px) and (max-width:427px) {
-    iframe{
+    .iframea{
         padding-right:70px;
         width:430px ;
         height: 306px;
     }
 }
 @media (min-width:767px) and (max-width:1023px) {
-    iframe{
+    .iframea{
         padding-right:70px;
         width:640px ;
         height: 450px;
     }
 }
+// up button
+.up{
+    position: fixed;
+    bottom: 30px;
+    right: -80px;
+    transition: 0.3s;
+    i{
+        font-size: 45px;
+        cursor: pointer;
+    }
+    }
+    .up.show{
+        right: 10px;
+        z-index: 10;
+    }

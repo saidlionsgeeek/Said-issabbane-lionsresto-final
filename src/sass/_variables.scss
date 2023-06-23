@@ -25,6 +25,7 @@ $bage : rgb(238, 238, 238);
 $gray : rgb(163, 155, 154);
 $red : rgb(207, 18, 18);
 $pink : rgb(233, 89, 90);
+$darckBlue : rgb(32, 31, 36);
 
 //* Notre customisations des couleurs :
 $custom-colors : (
@@ -32,6 +33,7 @@ $custom-colors : (
     "tcolor" : $gray ,
     "red" : $red ,
     "pink" : $pink ,
+    "darkblue":$darckBlue,
 );
 
 //* Fusionner les informations avec celles de bootstrap :

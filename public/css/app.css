@@ -14343,8 +14343,8 @@ textarea.form-control-lg {
 }
 
 .dote {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   background-color: rgb(163, 155, 154);
   display: inline-block;
   margin-top: 40px;
@@ -14565,6 +14565,45 @@ textarea.form-control-lg {
   .btn-book {
     width: 180px;
     height: 40px;
+  }
+}
+.section9-title {
+  font-family: amatic-bold;
+  font-size: 50px;
+}
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.slides {
+  display: flex;
+  width: fit-content;
+  transition: transform 1s;
+}
+
+.slides img {
+  width: 250px;
+  margin-left: 10px;
+}
+
+@media (min-width: 375px) and (max-width: 427px) {
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .carousel {
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    margin: 0 auto;
   }
 }
 

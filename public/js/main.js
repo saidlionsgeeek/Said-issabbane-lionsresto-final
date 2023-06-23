@@ -84,5 +84,83 @@ const carouselMovePrevious =()=>{
 const previous =()=>{
     carousel.insertBefore(carousel.firstElementChild, carousel.lastElementChild.nextElementSibling)
 }
+// !!
+function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dote");
+    if (n > slides.length) {
+      slideIndex = 1
+    }
+    if (n < 1) {
+      slideIndex = slides.length
+    }
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.border = "0px solid red";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+  
+    dots[slideIndex - 1].className += " active";
+  }
+  
+  
+  let slideIndex = 0;
+  
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.border = "0px solid red";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1
+    }
+    slides[slideIndex - 1].style.border = "5px solid red";
+  
+    
+  }
+  
+  
+  function scrollToSlide(slideIndex) {
+    showSlides();
+    let slides = document.getElementsByClassName("slides")[0];
+    let slideWidth = slides.offsetWidth;
+    let slideCount = slides.children.length;
+  
+    let scrollDistance = slideWidth * slideIndex;
+    slides.style.transform = "translateX(-" + scrollDistance + "px)";
+  
+    let dots = document.getElementsByClassName("dote");
+    for (let i = 0; i < dots.length; i++) {
+      dots[i].classList.remove("active");
+    }
+    dots[slideIndex].classList.add("active");
+  
+    let firstSlide = slides.children[0];
+    let lastSlide = slides.children[slideCount - 1];
+  
+    if (slideIndex === 0) {
+  
+      slides.style.transition = "none";
+      slides.style.transform = "translateX(-" + slideWidth + "px)";
+      setTimeout(function () {
+        slides.style.transition = "transform 1s";
+        slides.appendChild(lastSlide);
+        slides.style.transform = "translateX(0)";
+      }, 0);
+    } else if (slideIndex === slideCount - 1) {
+      slides.style.transition = "none";
+      slides.style.transform = "translateX(-" + (slideWidth * (slideCount - 1)) + "px)";
+      setTimeout(function () {
+        slides.style.transition = "transform 1s";
+        slides.insertBefore(firstSlide, lastSlide.nextSibling);
+        slides.style.transform = "translateX(-" + slideWidth + "px)";
+      }, 0);
+    }
+  }
 
 

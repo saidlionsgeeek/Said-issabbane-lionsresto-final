@@ -881,3 +881,36 @@
         margin: 0 auto;
     }
 }
+// section 10
+.section10-title{
+    font-family: amatic-bold;
+    font-size: 50px;
+}
+.font{
+    background-color: $red;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.adres-text{
+    p{
+        margin-block: -5px;
+    }
+}
+.width-div{
+    width: 100%;
+}
+.input-duel{
+    input{
+        height: 50px;
+    }
+}
+.input-mid{
+    input{
+        height: 50px;
+    }
+}
+.size-button{
+    width: 200px;
+    height: 50px;
+}

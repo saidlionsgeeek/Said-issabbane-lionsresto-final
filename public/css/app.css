@@ -14806,4 +14806,29 @@ textarea.form-control-lg {
   width: 90%;
 }
 
+.div-video {
+  background-color: rgba(0, 0, 0, 0.86);
+  border-radius: 0px;
+}
+
+iframe {
+  width: 1000px;
+  height: 506px;
+}
+
+@media (min-width: 375px) and (max-width: 427px) {
+  iframe {
+    padding-right: 70px;
+    width: 430px;
+    height: 306px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  iframe {
+    padding-right: 70px;
+    width: 640px;
+    height: 450px;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

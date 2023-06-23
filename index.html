@@ -23,15 +23,15 @@
                                 <label for="">eamil:</label>
                                 <input class="ms-1 border-1" type="email" placeholder="Your Email">
                             </form>
-                            <form action="" >
+                            <form action="">
                                 <label for="">password:</label>
                                 <input class="border-1" type="password" placeholder="Your Password">
                             </form>
                         </div>
                         <div class="d-flex justify-content-center gap-3 mt-2">
-                        <button class="btn-close-modal btn btn-danger" id="conexion">Log in</button>
-                        <button class="btn-close-modal btn btn-danger" id="conexion">Sign up</button>
-                    </div>
+                            <button class="btn-close-modal btn btn-danger" id="conexion">Log in</button>
+                            <button class="btn-close-modal btn btn-danger" id="conexion">Sign up</button>
+                        </div>
                     </div>
                 </div>
                 <button class="said-darck btn"> <i class="fa-solid fa-circle-half-stroke"
@@ -53,13 +53,13 @@
                             <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#">Event</a>
+                            <a class="nav-link active" aria-current="page" href="#event">Event</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#">Chefs</a>
+                            <a class="nav-link active" aria-current="page" href="#chefs">Chefs</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#">Gallery</a>
+                            <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item dropdown ms-1">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
@@ -75,7 +75,7 @@
                             </ul>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" href="#">Contact</a>
+                            <a class="nav-link active" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -95,9 +95,22 @@
                     impedit, quos necessitatibus ipsa repudiandae iure.</P>
                 <div class="divsection1-button">
                     <button class="btn btn-danger rounded-pill btn-size">Book a table</button>
-                    <button class="btn fs-5 ms-1">
+                    <button class="btn fs-5 ms-1 btn-open-modal" id="videoOne">
                         <i class="fa-regular fa-circle-play" style="color: #b1202b; font-size: 30px;"></i> Watch
                         Video</button>
+                    <div class="">
+                        <div class="div-modal modal modal-no-show w-100 h-100 div-video border-0" id="videoOne">
+                            <button class="btn-close-modal x-close-modal btn text-light" id="videoOne">X</button>
+                            <div class="content-modal d-flex  justify-content-center  mt-5 w-100 ms-2">
+                                <iframe class="" width="900" height="506"
+                                    src="https://www.youtube.com/embed/HS24PywYlxg"
+                                    title="A CINEMATIC B Roll - Burger (Foodporn 2020) #ALbrollchallenge"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div>
@@ -134,7 +147,16 @@
                     </div>
                     <div>
                         <img class="image2-section2" src="./public/images/about-2.jpg" alt="">
-                        <button class="btn play-button"><i class="fa-solid fa-circle-play"></i></button>
+                        <button class="btn play-button btn-open-modal" id="videoTwo"><i class="fa-solid fa-circle-play"></i></button>
+
+                        <div class="">
+                            <div class="div-modal modal modal-no-show w-100 h-100 div-video border-0" id="videoTwo">
+                                <button class="btn-close-modal x-close-modal btn text-light" id="videoTwo">X</button>
+                                <div class="content-modal d-flex  justify-content-center  mt-5 w-100 ms-2 ">
+                                    <iframe  src="https://www.youtube.com/embed/XGPTSME7xl0" title="CINEMATIC COOKING B ROLL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share ;" allowfullscreen ></iframe>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -405,7 +427,7 @@
             </div>
         </section>
         <!-- section 6 -->
-        <section class="mt-7 pb-5">
+        <section class="mt-7 pb-5" id="event">
             <div class="text-center">
                 <p class="text-tcolor">EVENTS</p>
                 <p class="section6-title">SHARE <span class="text-red">YOUR MOMENTS</span> IN OUR RESTURANT</p>
@@ -530,7 +552,7 @@
             </div>
         </section>
         <!-- section9 -->
-        <section class="bg-bage pb-5">
+        <section class="bg-bage pb-5" id="gallery">
             <div>
                 <p class="text-center text-tcolor pt-5">GaLLERY</p>
                 <p class="section9-title text-center pb-2 ">CHECK <span class="text-red text-center">OUR GALLERY</span>
@@ -564,7 +586,7 @@
             <!-- image slider end -->
         </section>
         <!-- section10 -->
-        <section>
+        <section id="contact">
             <p class="text-center mt-5">CONTACT</p>
             <p class="section10-title text-center">NEED HELP? <span class="text-red">CONTACT US</span></p>
             <div class="container">

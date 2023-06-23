@@ -52,6 +52,7 @@ for (let index = 0; index < btn_open_modal.length; index++) {
     }
 }
 
+
 // section 5 tabs
 
 let li_section5 = document.querySelectorAll(".li-section5");

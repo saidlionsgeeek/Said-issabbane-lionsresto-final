@@ -8,12 +8,12 @@
     <title>Document</title>
 </head>
 
-<body>
+<body class="dark lighttext">
     <header>
-        <nav class="z-1 navbar navbar-expand-lg bg-body-tertiary navbar-height position-fixed w-100 ">
+        <nav class="dark z-1 navbar navbar-expand-lg light navbar-height position-fixed w-100   ">
             <div class="container-fluid ">
-                <a class="navbar-brand fs-2 fw-bold  ms-2 ms-md-5 ms-lg-5 logo" href="#">LionsResto<span
-                        class="text-danger">.</span></a>
+                <a id="logo" class="navbar-brand fs-2 fw-bold  ms-2 ms-md-5 ms-lg-5 logo lighttext"
+                    href="#">LionsResto<span class="text-danger">.</span></a>
                 <div class="">
                     <button class="btn btn-danger rounded-pill said btn-open-modal" id="conexion">connexion</button>
                     <div class="div-modal modal modal-no-show div-image" id="conexion">
@@ -34,36 +34,35 @@
                         </div>
                     </div>
                 </div>
-                <button class="said-darck btn"> <i class="fa-solid fa-circle-half-stroke"
-                        style="color: #000000;"></i></button>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="said-darck btn"> <i class="fa-solid fa-circle-half-stroke"></i></button>
+                <button class="navbar-toggler text-light bg-light" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon "></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto div-ul ps-5">
-                        <li class="nav-item ms-1 cc">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <ul class="navbar-nav me-auto div-ul ps-5 ">
+                        <li class="nav-item ms-1 ">
+                            <a class="nav-link test lighttext cc " aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#about_us">About</a>
+                            <a class="nav-link test lighttext " aria-current="page" href="#about_us">About</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#menu">Menu</a>
+                            <a class="nav-link test lighttext" aria-current="page" href="#menu">Menu</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#event">Event</a>
+                            <a class="nav-link test lighttext" aria-current="page" href="#event">Event</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#chefs">Chefs</a>
+                            <a class="nav-link test lighttext" aria-current="page" href="#chefs">Chefs</a>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
+                            <a class="nav-link test lighttext" aria-current="page" href="#gallery">Gallery</a>
                         </li>
                         <li class="nav-item dropdown ms-1">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link dropdown-toggle lighttext" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Drop Down
                             </a>
                             <ul class="dropdown-menu">
@@ -75,7 +74,7 @@
                             </ul>
                         </li>
                         <li class="nav-item ms-1">
-                            <a class="nav-link active" href="#contact">Contact</a>
+                            <a class="nav-link test lighttext" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -87,23 +86,22 @@
 
     <main>
         <!-- section1 youtube video -->
-        <section
-            class="bg-bage  d-flex justify-content-center pt-7 flex-lg-row flex-md-column flex-md-column-reverse flex-column flex-column-reverse">
+        <section id="#home"
+            class=" dark bage  d-flex justify-content-center pt-7 flex-lg-row flex-md-column flex-md-column-reverse flex-column flex-column-reverse">
             <div class="ps-2 ps-lg-6  mt-lg-7 section1-div">
-                <p class="section1-title">ENJOY YOUR HEALTHY DELECIOUS FOOD</p>
-                <P class="text-tcolor section1-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                <p id="texetone" class="section1-title">ENJOY YOUR HEALTHY DELECIOUS FOOD</p>
+                <P id="texettwo" class="text-tcolor section1-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
                     impedit, quos necessitatibus ipsa repudiandae iure.</P>
                 <div class="divsection1-button">
-                    <button class="btn btn-danger rounded-pill btn-size">Book a table</button>
-                    <button class="btn fs-5 ms-1 btn-open-modal" id="videoOne">
+                    <button id="buttonone" class="btn btn-danger rounded-pill btn-size">Book a table</button>
+                    <button id="buttontwo" class="btn fs-5 ms-1 btn-open-modal lighttext" id="videoOne">
                         <i class="fa-regular fa-circle-play" style="color: #b1202b; font-size: 30px;"></i> Watch
                         Video</button>
                     <div class="">
                         <div class="div-modal modal modal-no-show w-100 h-100 div-video border-0" id="videoOne">
                             <button class="btn-close-modal x-close-modal btn text-light" id="videoOne">X</button>
                             <div class="content-modal d-flex  justify-content-center  mt-5 w-100 ms-2">
-                                <iframe class="iframea" 
-                                    src="https://www.youtube.com/embed/HS24PywYlxg"
+                                <iframe class="myvideo iframea" src="https://www.youtube.com/embed/HS24PywYlxg"
                                     title="A CINEMATIC B Roll - Burger (Foodporn 2020) #ALbrollchallenge"
                                     frameborder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -114,7 +112,7 @@
                 </div>
             </div>
             <div>
-                <img class="section1-image  mt-lg-2 mt-lg-1 mb-lg-2 mb-5" src="./public/images/hero-img.png"
+                <img id="image" class="section1-image  mt-lg-2 mt-lg-1 mb-lg-2 mb-5" src="./public/images/hero-img.png"
                     alt="image-hero">
             </div>
         </section>
@@ -147,13 +145,17 @@
                     </div>
                     <div>
                         <img class="image2-section2" src="./public/images/about-2.jpg" alt="">
-                        <button class="btn play-button btn-open-modal" id="videoTwo"><i class="fa-solid fa-circle-play"></i></button>
+                        <button class="btn play-button btn-open-modal" id="videoTwo"><i
+                                class="fa-solid fa-circle-play"></i></button>
 
                         <div class="">
                             <div class="div-modal modal modal-no-show w-100 h-100 div-video border-0" id="videoTwo">
                                 <button class="btn-close-modal x-close-modal btn text-light" id="videoTwo">X</button>
                                 <div class="content-modal d-flex  justify-content-center  mt-5 w-100 ms-2 ">
-                                    <iframe class="iframea"  src="https://www.youtube.com/embed/XGPTSME7xl0" title="CINEMATIC COOKING B ROLL" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share ;" allowfullscreen ></iframe>
+                                    <iframe class="myvideo iframea" src="https://www.youtube.com/embed/XGPTSME7xl0"
+                                        title="CINEMATIC COOKING B ROLL" frameborder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share ;"
+                                        allowfullscreen></iframe>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +164,7 @@
             </div>
         </section>
         <!-- section3  -->
-        <section class=" bg-bage mt-md-3  ">
+        <section class=" bg-bage mt-md-3 dark ">
             <div class="d-block d-lg-flex justify-content-lg-around pb-lg-4 pb-4 pt-md-5 pt-9 pt-lg-0 mt-5 pt-md-4">
                 <div class="bg-red text-light card-big container">
                     <h1 class="ps-md-1 ps-1 ps-lg-0 pt-md-1 ms-lg-1 mt-lg-1">Why Choose LionsResto ?</h1>
@@ -177,19 +179,19 @@
                 </div>
                 <div class="bg-light card-small text-center ">
                     <i class="fa-solid fa-clipboard-list clipboard mt-lg-2 mt-md-2 mt-1"></i>
-                    <h2 class="mt-md-2 mt-1">Corem Cpsum Color Cit</h2>
+                    <h2 class="mt-md-2 mt-1 textblack">Corem Cpsum Color Cit</h2>
                     <p class="text-tcolor mt-md-2 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                         animi aut quas. Lorem, ipsum dolor.lorem Lorem.</p>
                 </div>
                 <div class="bg-light card-small text-center">
                     <i class="fa-regular fa-gem clipboard mt-lg-2 mt-md-2 mt-1"></i>
-                    <h2 class="mt-md-2 mt-1">Corem Cpsum Color Cit</h2>
+                    <h2 class="mt-md-2 mt-1 textblack">Corem Cpsum Color Cit</h2>
                     <p class="text-tcolor mt-md-2 mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                         animi aut quas. Lorem, ipsum dolor.lorem Lorem.</p>
                 </div>
                 <div class="bg-light card-small me-lg-5 text-center">
                     <i class="fa-brands fa-css3 clipboard mt-lg-2 mt-md-2 mt-1"></i>
-                    <h2 class="mt-md-2 mt-1">Corem Cpsum Color Cit</h2>
+                    <h2 class="mt-md-2 mt-1 textblack">Corem Cpsum Color Cit</h2>
                     <p class="text-tcolor mt-md-2 mt-1 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                         animi aut quas. Lorem, ipsum dolor.lorem Lorem.</p>
                 </div>
@@ -465,7 +467,7 @@
             </div>
         </section>
         <!-- section 7 chefs-->
-        <section id="chefs" class="bg-bage pb-5">
+        <section id="chefs" class="bage dark pb-5">
             <div class="pt-5">
                 <p class="text-center text-tcolor ">CHEFS</p>
                 <P class="text-center section7-title">OUR <span class="text-red">PROFFESIONAL</span> CHEFS</P>
@@ -473,7 +475,7 @@
             <div class="d-flex gap-3 flex-wrap justify-content-center mt-2 container ">
                 <div class="chef">
                     <img src="./public/images/chefs/chefs-1.jpg" alt="">
-                    <div class="text-center">
+                    <div class="text-center textblack">
                         <p class="fs-3 mt-1">Walter White</p>
                         <p class="text-tcolor">Master chef</p>
                         <p class="text-center mx-1"> sit amet esse obcaecati vero, fugiat tempore inventore numquam
@@ -490,7 +492,7 @@
                 </div>
                 <div class="chef">
                     <img src="./public/images/chefs/chefs-2.jpg" alt="">
-                    <div class="text-center">
+                    <div class="text-center textblack">
                         <p class="fs-3 mt-1">Sarah Johnson</p>
                         <p class="text-tcolor">Patissier</p>
                         <p class="text-center mx-1"> sit amet esse obcaecati vero, fugiat tempore inventore numquam
@@ -507,7 +509,7 @@
                 </div>
                 <div class="chef">
                     <img src="./public/images/chefs/chefs-3.jpg" alt="">
-                    <div class="text-center">
+                    <div class="text-center textblack">
                         <p class="fs-3 mt-1">William Anderson</p>
                         <p class="text-tcolor">Cook</p>
                         <p class="text-center mx-1"> sit amet esse obcaecati vero, fugiat tempore inventore numquam
@@ -552,7 +554,7 @@
             </div>
         </section>
         <!-- section9 -->
-        <section class="bg-bage pb-5" id="gallery">
+        <section class="bage dark pb-5" id="gallery">
             <div>
                 <p class="text-center text-tcolor pt-5">GaLLERY</p>
                 <p class="section9-title text-center pb-2 ">CHECK <span class="text-red text-center">OUR GALLERY</span>
@@ -602,8 +604,8 @@
                             </div>
                             <div class="adres-text ms-1 ">
                                 <p class="mb-lg-1 fs-3 text-tcolor fw-bold">Our Address</p>
-                                <p>Lorem ipsum dolor sit amet.</p>
-                                <p>Lorem, ipsum.</p>
+                                <p class="textblack">Lorem ipsum dolor sit amet.</p>
+                                <p class="textblack">Lorem, ipsum.</p>
                             </div>
                         </div>
                     </div>
@@ -614,7 +616,7 @@
                             </div>
                             <div class="adres-text ms-1 ">
                                 <p class="mb-lg-1 fs-3 text-tcolor fw-bold">Email Us</p>
-                                <p>Lorem@exemplz.com.</p>
+                                <p class="textblack">Lorem@exemplz.com.</p>
 
                             </div>
                         </div>
@@ -628,7 +630,7 @@
                             </div>
                             <div class="adres-text ms-1 ">
                                 <p class="mb-lg-1 fs-3 text-tcolor fw-bold">Call Us</p>
-                                <p>+1 55 55 515515.</p>
+                                <p class="textblack">+1 55 55 515515.</p>
                             </div>
                         </div>
                     </div>
@@ -639,7 +641,7 @@
                             </div>
                             <div class="adres-text ms-1 ">
                                 <p class="mb-lg-1 fs-3 text-tcolor fw-bold">Opening Hours</p>
-                                <p>24/24h</p>
+                                <p class="textblack">24/24h</p>
                             </div>
                         </div>
                     </div>
@@ -674,48 +676,48 @@
 
 
 
-<footer>
-            <!-- section 11 -->
-            <section class="bg-darkblue mt-5 ">
-                <div class=" d-lg-flex d-block pt-3  container pb-3">
-                    <div
-                        class="text-light d-lg-flex d-md-flex w-100 justify-content-md-around pb-md-3 justify-content-lg-around">
-                        <div class="ms-1 pb-2 pb-md-0 pb-lg-0 pb-xl-0">
-                            <i class="fa-solid fa-location-dot fs-4 fw-bold "></i><span
-                                class="ms-1 fs-4 fw-bold">Address</span><br>
-                            <span class="ms-2">Lorem ipsum dolor si</span><br>
-                            <span class="ms-2">Lorem ipsum dolor sit amet.</span>
-                        </div>
-                        <div class="ms-1 pb-2 pb-md-0 pb-lg-0 pb-xl-0">
-                            <i class="fa-solid fa-phone fs-4 fw-bold"></i><span class="ms-1 fs-4 fw-bold">Phone</span><br>
-                            <span class="ms-2">Lorem ipsum dolor si</span><br>
-                            <span class="ms-2">Lorem ipsum dolor sit amet.</span>
-                        </div>
+    <footer>
+        <!-- section 11 -->
+        <section class="bg-darkblue mt-5 ">
+            <div class=" d-lg-flex d-block pt-3  container pb-3">
+                <div
+                    class="text-light d-lg-flex d-md-flex w-100 justify-content-md-around pb-md-3 justify-content-lg-around">
+                    <div class="ms-1 pb-2 pb-md-0 pb-lg-0 pb-xl-0">
+                        <i class="fa-solid fa-location-dot fs-4 fw-bold "></i><span
+                            class="ms-1 fs-4 fw-bold">Address</span><br>
+                        <span class="ms-2">Lorem ipsum dolor si</span><br>
+                        <span class="ms-2">Lorem ipsum dolor sit amet.</span>
                     </div>
-                    <div class="text-light d-lg-flex d-md-flex justify-content-md-between  w-100 justify-content-lg-around">
-                        <div class="ms-1 ms-md-4 pb-2 pb-md-0 pb-lg-0 pb-xl-0 ">
-                            <i class="fa-solid fa-clock fs-4 fw-bold"></i><span class="ms-1 fs-4 fw-bold">opening
-                                Hours</span><br>
-                            <span class="ms-2">Lorem ipsum dolor si</span><br>
-                            <span class="ms-2">Lorem ipsum dolor sit amet.</span>
-                        </div>
-                        <div class="ms-1 pb-1 pb-md-0 pb-lg-0 pb-xl-0 me-md-8">
-                            <span class="ms-1 fs-4 fw-bold ">Follw us</span><br>
-                            <div class="mt-1 ms-1">
-                                <i class="fa-brands fa-twitter" style="color: #a39b9a; font-size: 30px;"></i>
-                                <i class="fa-brands fa-square-facebook" style="color: #a39b9a; font-size: 30px;"></i>
-                                <i class="fa-brands fa-square-instagram" style="color: #a39b9a; font-size: 30px;"></i>
-                                <i class="fa-brands fa-linkedin" style="color: #a39b9a; font-size: 30px;"></i>
-                            </div>
+                    <div class="ms-1 pb-2 pb-md-0 pb-lg-0 pb-xl-0">
+                        <i class="fa-solid fa-phone fs-4 fw-bold"></i><span class="ms-1 fs-4 fw-bold">Phone</span><br>
+                        <span class="ms-2">Lorem ipsum dolor si</span><br>
+                        <span class="ms-2">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                </div>
+                <div class="text-light d-lg-flex d-md-flex justify-content-md-between  w-100 justify-content-lg-around">
+                    <div class="ms-1 ms-md-4 pb-2 pb-md-0 pb-lg-0 pb-xl-0 ">
+                        <i class="fa-solid fa-clock fs-4 fw-bold"></i><span class="ms-1 fs-4 fw-bold">opening
+                            Hours</span><br>
+                        <span class="ms-2">Lorem ipsum dolor si</span><br>
+                        <span class="ms-2">Lorem ipsum dolor sit amet.</span>
+                    </div>
+                    <div class="ms-1 pb-1 pb-md-0 pb-lg-0 pb-xl-0 me-md-8">
+                        <span class="ms-1 fs-4 fw-bold ">Follw us</span><br>
+                        <div class="mt-1 ms-1">
+                            <i class="fa-brands fa-twitter" style="color: #a39b9a; font-size: 30px;"></i>
+                            <i class="fa-brands fa-square-facebook" style="color: #a39b9a; font-size: 30px;"></i>
+                            <i class="fa-brands fa-square-instagram" style="color: #a39b9a; font-size: 30px;"></i>
+                            <i class="fa-brands fa-linkedin" style="color: #a39b9a; font-size: 30px;"></i>
                         </div>
                     </div>
                 </div>
-                <div class="border-section11 p-1">
-                    <p class="text-tcolor text-center">Copyright <span class="fw-bold">LIONSRESTO.</span> All Rights
-                        Reserved</p>
-                </div>
-            </section>
-</footer>
+            </div>
+            <div class="border-section11 p-1">
+                <p class="text-tcolor text-center">Copyright <span class="fw-bold">LIONSRESTO.</span> All Rights
+                    Reserved</p>
+            </div>
+        </section>
+    </footer>
 
 
 
@@ -731,8 +733,9 @@
 
 
 
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./public/js/main.js"></script>
 </body>

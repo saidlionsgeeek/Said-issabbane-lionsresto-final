@@ -1,38 +1,58 @@
-.said{
+.said {
     position: absolute;
     right: 100px;
     top: 27px;
 }
-.said-darck{
+
+.said-darck {
     position: absolute;
     right: 250px;
-    top: 27px;
+    top : 27px;
 }
-.logo{
+
+.logo {
     margin-top: 5px;
     padding-right: 100px;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
 }
-.sombre{
-    background-color: rgba(0, 0, 0, 0.759);
+
+.sombre {
+    background-color: rgb(41, 41, 42) !important;
+}
+
+.lighttextt {
+    color: #fff !important;
+}
+
+.light {
+    background-color: #fff;
+}
+
+.bage {
+    background-color: rgb(238, 238, 238);
+}
+
+.textblack{
+    color: rgb(0, 0, 0) !important;
 }
 // !!---------------------------------
-.modal-no-show{
+.modal-no-show {
     display: none;
 }
-.modal-show{
+
+.modal-show {
     display: block;
 }
 
-.div-modal{
+.div-modal {
     z-index: 1;
-    overflow :hidden;
+    overflow: hidden;
     pointer-events: visible;
     background-color: white;
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     border: 1px solid $red;
     border-radius: 20px;
     width: 400px;
@@ -41,43 +61,47 @@
     max-height: 100%;
 }
 
-.x-close-modal{
+.x-close-modal {
     float: right;
 }
 
-.body-modal-open{
+.body-modal-open {
     overflow: hidden;
     pointer-events: none;
-    background-color: rgb(0,0,0); 
-    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    z-index: 1111;
+    background-color: rgba(0, 0, 0, 0.95);
+    width: 100vw;
+    height: 100vh;
 }
-.div-image{
+
+.div-image {
     background-image: url(../images/about-2.jpg);
 
 }
 
 @media (min-width:375px) and (max-width:428px) {
-    .said-darck{
+    .said-darck {
         position: absolute;
         right: 200px;
         top: 27px;
     }
-    .said{
+
+    .said {
         position: absolute;
         right: 90px;
         top: 27px;
     }
-    .logo{
+
+    .logo {
         margin-top: 10px;
         padding-right: 100px;
-        padding-bottom: 20px ;
+        padding-bottom: 20px;
     }
 }
 
-.cc{
-    border-bottom: 2px solid red;
-    padding-bottom: -5px;
-    animation: border;
+.cc {
+    border-bottom: 2px solid red !important;
+    padding-bottom: -5px !important;
+    animation: border !important;
 }
-
-
